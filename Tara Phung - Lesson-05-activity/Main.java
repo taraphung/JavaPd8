@@ -4,39 +4,28 @@ class Main {
 	}
 
   void init(){
-    
-
 /*  
     Challenge 1:
     Create two integer variables and Assign values to them. 
     Calculate the sum of the two numbers and store the 
     calculated sum and then display it.
 */
-
 int one = -5;
 int two = 10;
-
 double three = one + two;
-
 System.out.println(three);
-   
 
 /*  
     Challenge 2:
     Create three variables to assign three grades and Assign values to each grade. 
     Calculate the sum of the three grades and store the 
     calculated sum and then display it.
-    
 */
-
 int grade1 = 85;
 int grade2 = 90;
 int grade3 = 72;
-
 double sum = grade1 + grade2 + grade3;
-
 System.out.println(sum);
-
 
 /*  
     Challenge 3:
@@ -45,37 +34,27 @@ System.out.println(sum);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-
 double avg = (grade1 + grade2 + grade3) / 3.0;
-
 System.out.println(avg);
 
 /*  
     Challenge 4:
     Write the following equation in EQ1.PNG file in Java; store the result and the display it:
     Declare and assign values to any new variables
-
 */
-
 double A = 3.0;
 double x = 22.0;
-
 double y = A / (x+1);
-
 System.out.println(y);
-
 
 /*  
     Challenge 5:
     Using the variables same variables from challenge4 above, write the following equation in EQ2.PNG file in Java, store the result and the display it:
-
     Declare and assign values to any new variables
 
 */
- 
 y = ((2*x)*(x+1)*(-x/2)) / A;
 System.out.println(y);
-
 
 /*  
     Challenge 6:
@@ -87,11 +66,8 @@ System.out.println(y);
  
  int b = 5;
  int h = 15;
-
  double area = 1.0/2 * b * h;
  System.out.println(area);
-
-
 
 /*  
     **** Bonus Challenge ****:
@@ -112,13 +88,10 @@ System.out.println(y);
 int eggs = 100;
 int basket = 12;
 
-
 double total = 100/12;
 System.out.println(total);
-
 double leftover = 100%12;
 System.out.println(leftover);
-
 
     // **************************************************
     // **** Don't write any code below here.  ***********
